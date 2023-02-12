@@ -50,7 +50,6 @@ body {
 .fv .menu-sm {
   display: none;
   height: 100vh;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
   width: 100%;
   background-color: #fff;
   position: fixed;
@@ -60,7 +59,6 @@ body {
 .fv .menu-sm .close {
   width: 10%;
   position: relative;
-  background-color: red;
   margin: 10% 5% 0 auto;
 }
 .fv .menu-sm .close::before {
@@ -122,15 +120,14 @@ body {
   bottom: 0;
 }
 .fv .f-content .f-cardwrap .f-card {
-  font-family: "Cormorant Garamond";
   padding-left: 7%;
 }
 .fv .f-content .f-cardwrap .f-card .f-title {
+  font-family: "Cormorant Garamond";
   font-size: 50px;
   margin-bottom: 7%;
 }
 .fv .f-content .f-cardwrap .f-card .f-text {
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
   font-size: 16px;
   line-height: 2rem;
   letter-spacing: 0.15rem;
@@ -253,22 +250,24 @@ body {
 .service .se-titlewrap .se-title .se-wordwrap {
   padding-right: 7%;
   text-align: right;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
 }
 .service .se-titlewrap .se-title .se-wordwrap h2 {
   margin-top: 15%;
+  position: relative;
   font-family: "Cormorant Garamond";
   font-size: 60px;
+  z-index: 0;
 }
 .service .se-titlewrap .se-title .se-wordwrap h2::before {
   content: "";
   position: absolute;
-  top: 35%;
+  top: 80%;
   right: 0;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translateX(25%);
   width: 30vw;
   height: 1px;
   background-color: #cde9f5;
+  z-index: -1;
 }
 .service .se-titlewrap .se-title .se-wordwrap span {
   font-size: 12px;
@@ -304,7 +303,6 @@ body {
   background-color: rgba(255, 255, 255, 0.7960784314);
 }
 .service .se-cardwrap .se-card .se-cardname {
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
   position: absolute;
   text-align: center;
   line-height: 1.3rem;
@@ -349,22 +347,24 @@ body {
   text-align: left;
   padding-left: 7%;
   padding-bottom: 8%;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
 }
 .works .w-titlewrap .w-title .w-wordwrap h2 {
   margin-top: 10%;
   font-family: "Cormorant Garamond";
   font-size: 60px;
+  position: relative;
+  z-index: 0;
 }
 .works .w-titlewrap .w-title .w-wordwrap h2::before {
   content: "";
   position: absolute;
-  top: 35%;
+  top: 75%;
   left: 0;
-  transform: translateX(6%) rotate(-45deg);
+  transform: translateX(-15%) rotate(-45deg);
   width: 30vw;
   height: 1px;
   background-color: #cde9f5;
+  z-index: -1;
 }
 .works .w-titlewrap .w-title .w-wordwrap span {
   font-size: 12px;
@@ -412,12 +412,12 @@ body {
 .blog .b-wordwrap {
   text-align: left;
   padding-bottom: 8%;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
 }
 .blog .b-wordwrap h2 {
   font-family: "Cormorant Garamond";
   font-size: 60px;
   position: relative;
+  z-index: 0;
 }
 .blog .b-wordwrap h2::before {
   content: "";
@@ -428,6 +428,7 @@ body {
   width: 30vw;
   height: 1px;
   background-color: #cde9f5;
+  z-index: -1;
 }
 .blog .b-wordwrap span {
   font-size: 12px;
@@ -439,7 +440,6 @@ body {
   margin-top: 5vw;
 }
 .blog .b-card {
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
   margin-bottom: 0%;
 }
 .blog .b-card .b-imgwrap {
@@ -489,7 +489,6 @@ body {
 .recruit {
   padding: 25% 7% 35% 7%;
   background-color: #fff;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
   position: relative;
 }
 .recruit .r-title {
@@ -501,6 +500,7 @@ body {
   line-height: 7px;
   margin-right: 7%;
   position: relative;
+  z-index: 0;
 }
 .recruit .r-title h2::before {
   content: "";
@@ -511,17 +511,17 @@ body {
   width: 20vw;
   height: 1px;
   background-color: #cde9f5;
+  z-index: -1;
 }
 .recruit .r-title p {
   line-height: normal;
   font-size: 13.5px;
   font-weight: 600;
 }
-.recruit p {
+.recruit .r-p {
   letter-spacing: 2px;
-  text-align: justify;
   line-height: 1.5rem;
-  margin-bottom: 7%;
+  margin: 7% 0;
 }
 .recruit .r-imgwrap img {
   width: 100%;
@@ -539,7 +539,6 @@ body {
 .media .m-title {
   display: flex;
   margin-bottom: 10%;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
 }
 .media .m-title h2 {
   font-family: "Cormorant Garamond";
@@ -547,6 +546,7 @@ body {
   line-height: 7px;
   margin-right: 7%;
   position: relative;
+  z-index: 0;
 }
 .media .m-title h2::before {
   content: "";
@@ -557,6 +557,7 @@ body {
   width: 20vw;
   height: 1px;
   background-color: #cde9f5;
+  z-index: -1;
 }
 .media .m-title p {
   line-height: normal;
@@ -669,22 +670,12 @@ body {
 .slider-dots .arrow-wrap img {
   width: 100%;
 }
-.slider-dots ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.slider-dots ul li {
-  width: 1.8vw;
-  height: 1.8vw;
-  border-radius: 50%;
-  border: 1px solid #c2c2c2;
-}
 
 .more {
   width: 40%;
   display: flex;
   position: absolute;
+  text-decoration: none;
 }
 .more::after {
   content: "";
@@ -1015,6 +1006,9 @@ body {
     line-height: 2rem;
     margin: 3vw 0 0 3.5vw;
   }
+  .works .w-cardwrap {
+    padding: 0;
+  }
   .works .w-cardwrap .w-card {
     width: 20%;
     padding: 1% 0 1%;
@@ -1042,7 +1036,7 @@ body {
     bottom: 8%;
   }
   .works .slick-dots {
-    transform: translate(-26%, 250%);
+    transform: translate(-19%, 250%);
   }
   .blog {
     background-image: linear-gradient(#fff 46%, transparent 46%);
@@ -1300,6 +1294,8 @@ body {
   .more {
     width: 13%;
     justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
   }
   .more::after {
     bottom: 45%;
@@ -1319,13 +1315,5 @@ body {
   }
   .slider-dots .arrow-wrap {
     width: 1.5vw;
-  }
-  .slider-dots ul li {
-    width: 0.5vw;
-    height: 0.5vw;
-    border: 2px solid #c2c2c2;
-  }
-  .slick-dots li {
-    list-style: none;
   }
 }

@@ -5,8 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/reset.css" />
-        <link rel="stylesheet" href="./css/style-sm.css" />
-        <!-- <link rel="stylesheet" href="./css/style.css"> -->
+        <link rel="stylesheet" href="./css/style.css" />
         <link
             href="https://fonts.googleapis.com/css?family=Cormorant Garamond"
             rel="stylesheet"
@@ -293,22 +292,23 @@
                         alt=""
                     />
                 </div>
-                <div class="more adj">
+                <a href="#" class="more adj">
                     <span>★</span>
                     <p>MORE</p>
                     <div class="icon-wrap">
                         <img src="./images/arrow.png" alt="" />
                     </div>
-                </div> 
+                </a> 
             </div>
         </section>
         <section class="works">
             <div class="w-titlewrap">
                 <div class="w-title">
                     <div class="w-wordwrap">
-                        <div class="w-workswrap">                        <h2>Works</h2>
-                            <span>実績紹介</span></div>
-
+                        <div class="w-workswrap">
+                            <h2>Works</h2>                        
+                            <span>実績紹介</span>
+                        </div>
                         <h3>解決へと導いたこれまでの軌跡</h3>
                     </div>
                 </div>
@@ -327,13 +327,13 @@
                     <img src="./images/arrow02.png" alt="" />
                 </div>
             </div>
-            <div class="more adj">
+            <a href="#" class="more adj">
                     <span>★</span>
                     <p>MORE</p>
                     <div class="icon-wrap">
                         <img src="./images/arrow.png" alt="" />
                     </div>
-            </div> 
+            </a> 
         </section>
         <section class="blog">
             <div class="b-wordwrap">
@@ -347,7 +347,6 @@
             </div>
             <div class="b-cardwrap">
             </div>
-
             <div class="slider-dots adj">
                 <div class="arrow-wrap">
                     <img
@@ -360,22 +359,22 @@
                     <img src="./images/arrow02.png" alt="" />
                 </div>
             </div>
-            <div class="more adj">
+            <a href="#" class="more adj">
                 <span>★</span>
                 <p>MORE</p>
                 <div class="icon-wrap">
                     <img src="./images/arrow.png" alt="" />
                 </div>
-            </div>
+            </a>
         </div> 
         </section>
         <section class="recruit">
             <div class="r-titlewrap">            
                 <div class="r-title">
                     <h2>Recruit</h2>
-                    <p>採用情報</p>
+                    <p >採用情報</p>
                 </div>
-                <p>
+                <p class="r-p">
                     未経験からの挑戦や異業種からの転職など、新卒・中途問わず一緒に働くメンバーを募集中。
                 </p>
             </div>
@@ -383,13 +382,13 @@
             <div class="r-imgwrap">
                 <img src="./images/recruit/recruit01.jpg" alt="" />
             </div>
-            <div class="more adj">
+            <a href="#" class="more adj">
                 <span>★</span>
                 <p>MORE</p>
                 <div class="icon-wrap">
                     <img src="./images/arrow.png" alt="" />
                 </div>
-            </div>
+            </a>
         </section>
         <section class="media">
             <div class="m-title">
@@ -571,7 +570,6 @@
                 });
 
                 // blog-slider
-            
                 const sliderB = document.querySelector(".b-cardwrap");
 
                 fetch("./data/blog.json")

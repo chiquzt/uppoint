@@ -14,11 +14,12 @@ $more-font:'Montserrat';
 * {
     box-sizing: border-box;
     color:$primary;
-    font-family:$jp-font;
 }
 
 body{
     background: url("../images/bg.jpg");
+    font-family:$jp-font;
+
 
 }
 
@@ -464,7 +465,7 @@ body{
     .w-cardwrap{
         padding: 0 7%;
         .w-card{
-            padding: 1% 0 0;
+            padding: 1% .15% 0;
     
             .w-imgwrap{
                 width: 100%;
@@ -606,7 +607,6 @@ body{
 
     .r-title{
     display: flex;
-    margin-bottom: 5%;
 
         h2{
             font-family: $en-font;
@@ -705,7 +705,6 @@ body{
 
 // footer-------------------------
 .footer{
-    font-family: $jp-font;
 
     .foo-wrap{
     padding: 20% 7%;
@@ -1247,11 +1246,13 @@ body{
                     h2{
                         margin-top: 2%;
                         font-size: 110px;
+                        position: relative;
+                        z-index: 0;
 
                         &::before{
                             top: 52%;
-                            left: 28%;
-                            transform:translateX(0%) rotate(-45deg);
+                            right: 0;
+                            transform:translateX(-15%) rotate(-45deg);
                             width: 11vw;
                             height: 1.5px;
                             z-index: -1;
@@ -1260,6 +1261,7 @@ body{
                     
                     span{
                         font-size: 20px; 
+
                     }
 
                     h3{
@@ -1346,11 +1348,12 @@ body{
             .b-titlewrap{
                 h2{
                     font-size: 110px;
+                    z-index: 0;
     
                     &::before{
                         width: 11vw;
                         height: 1.5px;
-                        // z-index: -1;
+                        z-index: -1;
                     }
                 }
                 
@@ -1446,11 +1449,12 @@ body{
                     font-size: 60px;
                     line-height: 8px;
                     margin-right: 2%;
+                    z-index: 0;
 
                     &::before{
                         width: 6vw;
                         height: 1.5px;
-                        // z-index: -1;
+                        z-index: -1;
                     }
                 }
                 p{
@@ -1491,11 +1495,12 @@ body{
                     font-size: 60px;
                     line-height: 9px;
                     margin-right: 2%;
+                    z-index: 0;
         
                     &::before{
                         width: 7vw;
                         height: 1.5px;
-                        // z-index: -1;
+                        z-index: -1;
                     }
                 }
                 p{

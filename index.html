@@ -552,7 +552,7 @@
                     
                     $(".w-cardwrap").slick({
                         dots: true,
-                        // autoplay: true,
+                        autoplay: true,
                         autoplaySpeed: 0,
                         arrows: false,
                         speed: 6000,
@@ -561,17 +561,11 @@
 
                         responsive: [
                             {
-                                breakpoint: 768,
-                                settings: {
-                                    slidesToShow: 2,
-                                },
-                            },
-                            {
-                                breakpoint: 426,
+                                breakpoint: 576,
                                 settings: {
                                     slidesToShow: 1,
                                 },
-                            },
+                            }
                         ],
                     });
                 });
@@ -631,17 +625,11 @@
 
                             responsive: [
                                 {
-                                    breakpoint: 768,
-                                    settings: {
-                                        slidesToShow: 2,
-                                    },
-                                },
-                                {
-                                    breakpoint: 426,
+                                    breakpoint: 576,
                                     settings: {
                                         slidesToShow: 1,
                                     },
-                                },
+                                }
                             ],
                         });
                     });

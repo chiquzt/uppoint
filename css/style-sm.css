@@ -2,11 +2,11 @@
 * {
   box-sizing: border-box;
   color: #212121;
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
 }
 
 body {
   background: url("../images/bg.jpg");
+  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
 }
 
 .fv {
@@ -379,7 +379,7 @@ body {
   padding: 0 7%;
 }
 .works .w-cardwrap .w-card {
-  padding: 1% 0 0;
+  padding: 1% 0.15% 0;
 }
 .works .w-cardwrap .w-card .w-imgwrap {
   width: 100%;
@@ -494,7 +494,6 @@ body {
 }
 .recruit .r-title {
   display: flex;
-  margin-bottom: 5%;
 }
 .recruit .r-title h2 {
   font-family: "Cormorant Garamond";
@@ -575,9 +574,6 @@ body {
   width: 100%;
 }
 
-.footer {
-  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
-}
 .footer .foo-wrap {
   padding: 20% 7%;
 }
@@ -1000,11 +996,13 @@ body {
   .works .w-titlewrap .w-title .w-wordwrap h2 {
     margin-top: 2%;
     font-size: 110px;
+    position: relative;
+    z-index: 0;
   }
   .works .w-titlewrap .w-title .w-wordwrap h2::before {
     top: 52%;
-    left: 28%;
-    transform: translateX(0%) rotate(-45deg);
+    right: 0;
+    transform: translateX(-15%) rotate(-45deg);
     width: 11vw;
     height: 1.5px;
     z-index: -1;
@@ -1069,10 +1067,12 @@ body {
   }
   .blog .b-wordwrap .b-titlewrap h2 {
     font-size: 110px;
+    z-index: 0;
   }
   .blog .b-wordwrap .b-titlewrap h2::before {
     width: 11vw;
     height: 1.5px;
+    z-index: -1;
   }
   .blog .b-wordwrap .b-titlewrap span {
     font-size: 20px;
@@ -1147,10 +1147,12 @@ body {
     font-size: 60px;
     line-height: 8px;
     margin-right: 2%;
+    z-index: 0;
   }
   .recruit .r-titlewrap .r-title h2::before {
     width: 6vw;
     height: 1.5px;
+    z-index: -1;
   }
   .recruit .r-titlewrap .r-title p {
     font-size: 20px;
@@ -1183,10 +1185,12 @@ body {
     font-size: 60px;
     line-height: 9px;
     margin-right: 2%;
+    z-index: 0;
   }
   .media .m-title h2::before {
     width: 7vw;
     height: 1.5px;
+    z-index: -1;
   }
   .media .m-title p {
     font-size: 22px;

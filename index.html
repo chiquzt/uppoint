@@ -4,9 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/style-sm.css" />
         <!-- <link rel="stylesheet" href="./css/style.css"> -->
-        <link rel="stylesheet" href="./css/reset.css" />
         <link
             href="https://fonts.googleapis.com/css?family=Cormorant Garamond"
             rel="stylesheet"
@@ -16,7 +16,8 @@
             rel="stylesheet"
         />
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
         <title>BEASTAR</title>
     </head>
     <body>
@@ -41,7 +42,7 @@
                 <div class="logo">
                     <img src="./images/logo.png" alt="" />
                 </div>
-                <div class="ham">
+                <div class="ham" onclick="menuS()">
                     <img src="./images/menu-sm.png" alt="" />
                 </div>
             </div>
@@ -96,6 +97,10 @@
                             <div class="f-date">2022.02.04</div>
                             <div class="f-info">INFORMATION</div>
                         </div>
+                        <div class="f-icons">
+                            <img src="./images/menu-sm/icon2.png" alt="">
+                            <img src="./images/menu-sm/icon1.png" alt="">
+                        </div>
                     </div>
                     <div class="f-linkwrap">
                         <div class="f-link">
@@ -103,7 +108,6 @@
                                 <li>
                                     【採用強化中】情報×分析×戦略を武器に戦う
                                 </li>
-
                                 <li>【SNSディレクター／マーケター】</li>
                             </ul>
                         </div>
@@ -125,9 +129,9 @@
                 <p>
                     私たち『BEASTAR』は、自社でSNSを<br />
                     最適化するノウハウや<br />
-                    マンパワーを持たない企業の課題を解決する、<br />
-                    SNSマーケティングのプロフェッショナル。<br />
-                    アカウントの戦略設計からバズる企画立案、<br />
+                    マンパワーを持たない企業の課題を解決する、
+                    SNSマーケティングのプロフェッショナル。
+                    アカウントの戦略設計からバズる企画立案、
                     運用に至るまでをトータルサポートしています。
                 </p>
             </div>
@@ -310,51 +314,6 @@
                 </div>
             </div>
             <div class="w-cardwrap">
-                <div class="w-card">
-                    <div class="w-imgwrap">
-                        <img src="./images/works/works02.jpg" alt="" />
-                    </div>
-                    <div class="w-title">
-                        タイトルタイトルタイトルタイトルタイト
-                        ルタイトルタイトルタイトル
-                    </div>
-                </div>
-                <div class="w-card">
-                    <div class="w-imgwrap">
-                        <img src="./images/works/works02.jpg" alt="" />
-                    </div>
-                    <div class="w-title">
-                        タイトルタイトルタイトルタイトルタイト
-                        ルタイトルタイトルタイトル
-                    </div>
-                </div>
-                <div class="w-card">
-                    <div class="w-imgwrap">
-                        <img src="./images/works/works02.jpg" alt="" />
-                    </div>
-                    <div class="w-title">
-                        タイトルタイトルタイトルタイトルタイト
-                        ルタイトルタイトルタイトル
-                    </div>
-                </div>
-                <div class="w-card">
-                    <div class="w-imgwrap">
-                        <img src="./images/works/works02.jpg" alt="" />
-                    </div>
-                    <div class="w-title">
-                        タイトルタイトルタイトルタイトルタイト
-                        ルタイトルタイトルタイトル
-                    </div>
-                </div>
-                <div class="w-card">
-                    <div class="w-imgwrap">
-                        <img src="./images/works/works02.jpg" alt="" />
-                    </div>
-                    <div class="w-title">
-                        タイトルタイトルタイトルタイトルタイト
-                        ルタイトルタイトルタイトル
-                    </div>
-                </div>
             </div>
             <div class="slider-dots adj">
                 <div class="arrow-wrap">
@@ -364,23 +323,10 @@
                         style="transform: rotate(180deg)"
                     />
                 </div>
-                <ul style="width: 70%">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
                 <div class="arrow-wrap">
                     <img src="./images/arrow02.png" alt="" />
                 </div>
             </div>
-
             <div class="more adj">
                     <span>★</span>
                     <p>MORE</p>
@@ -400,111 +346,6 @@
                 </h3>
             </div>
             <div class="b-cardwrap">
-                <div class="b-card">
-                    <div class="b-imgwrap">
-                        <img src="./images/blog/blog01.png" alt="" />
-                    </div>
-                    <div class="b-content">
-                        <div class="b-info">
-                            完全無名でもYouTubeチャンネル登録者数1,000人を達成し、収益化を目指す8つのポイント
-                        </div>
-                        <div class="b-tag-l">
-                            <p>#SNSマーケティング</p>
-                            <p>#子カテゴリー</p>
-                            <p>#孫カテゴリー</p>
-                        </div>
-                        <div class="b-tag-s">
-                            <p>* Instagram</p>
-                            <p>*タグタグタグ</p>
-                            <p>*タグタグタグ</p>
-                        </div>
-                        <div class="b-date">2020.09.17</div>
-                    </div>
-                </div>
-                <div class="b-card">
-                    <div class="b-imgwrap">
-                        <img src="./images/blog/blog01.png" alt="" />
-                    </div>
-                    <div class="b-content">
-                        <div class="b-info">
-                            完全無名でもYouTubeチャンネル登録者数1,000人を達成し、収益化を目指す8つのポイント
-                        </div>
-                        <div class="b-tag-l">
-                            <p>#SNSマーケティング</p>
-                            <p>#子カテゴリー</p>
-                            <p>#孫カテゴリー</p>
-                        </div>
-                        <div class="b-tag-s">
-                            <p>* Instagram</p>
-                            <p>*タグタグタグ</p>
-                            <p>*タグタグタグ</p>
-                        </div>
-                        <div class="b-date">2020.09.17</div>
-                    </div>
-                </div>
-                <div class="b-card">
-                    <div class="b-imgwrap">
-                        <img src="./images/blog/blog01.png" alt="" />
-                    </div>
-                    <div class="b-content">
-                        <div class="b-info">
-                            完全無名でもYouTubeチャンネル登録者数1,000人を達成し、収益化を目指す8つのポイント
-                        </div>
-                        <div class="b-tag-l">
-                            <p>#SNSマーケティング</p>
-                            <p>#子カテゴリー</p>
-                            <p>#孫カテゴリー</p>
-                        </div>
-                        <div class="b-tag-s">
-                            <p>* Instagram</p>
-                            <p>*タグタグタグ</p>
-                            <p>*タグタグタグ</p>
-                        </div>
-                        <div class="b-date">2020.09.17</div>
-                    </div>
-                </div>
-                <div class="b-card">
-                    <div class="b-imgwrap">
-                        <img src="./images/blog/blog01.png" alt="" />
-                    </div>
-                    <div class="b-content">
-                        <div class="b-info">
-                            完全無名でもYouTubeチャンネル登録者数1,000人を達成し、収益化を目指す8つのポイント
-                        </div>
-                        <div class="b-tag-l">
-                            <p>#SNSマーケティング</p>
-                            <p>#子カテゴリー</p>
-                            <p>#孫カテゴリー</p>
-                        </div>
-                        <div class="b-tag-s">
-                            <p>* Instagram</p>
-                            <p>*タグタグタグ</p>
-                            <p>*タグタグタグ</p>
-                        </div>
-                        <div class="b-date">2020.09.17</div>
-                    </div>
-                </div>
-                <div class="b-card">
-                    <div class="b-imgwrap">
-                        <img src="./images/blog/blog01.png" alt="" />
-                    </div>
-                    <div class="b-content">
-                        <div class="b-info">
-                            完全無名でもYouTubeチャンネル登録者数1,000人を達成し、収益化を目指す8つのポイント
-                        </div>
-                        <div class="b-tag-l">
-                            <p>#SNSマーケティング</p>
-                            <p>#子カテゴリー</p>
-                            <p>#孫カテゴリー</p>
-                        </div>
-                        <div class="b-tag-s">
-                            <p>* Instagram</p>
-                            <p>*タグタグタグ</p>
-                            <p>*タグタグタグ</p>
-                        </div>
-                        <div class="b-date">2020.09.17</div>
-                    </div>
-                </div>
             </div>
 
             <div class="slider-dots adj">
@@ -515,13 +356,6 @@
                         style="transform: rotate(180deg)"
                     />
                 </div>
-                <ul style="width: 60%">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
                 <div class="arrow-wrap">
                     <img src="./images/arrow02.png" alt="" />
                 </div>
@@ -596,29 +430,26 @@
                             <li>会社案内</li>
                             <li>採用情報</li>
                         </div>
-
-
                         <div class="foo-links-sm">
                             <ul class="foo-service">
                                 <p>サービス</p>
-                                <li class="f-list">Instagram運用代行</li>
-                                <li class="f-list">TikTok運用代行</li>
-                                <li>Twitter運用代行</li>
-                                <li>LINE運用代行</li>
-                                <li>SNSコンサルティング</li>
-                                
+                                <li class="f-list">Instagram 運用代行</li>
+                                <li class="f-list">TikTok 運用代行</li>
+                                <li>Twitter 運用代行</li>
+                                <li>LINE 運用代行</li>
+                                <li>SNS コンサルティング</li>
                             </ul>
                         </div>
-                        <div class="foo-links-sm">
+                        <div class="foo-links-sm adj">
                             <ul class="foo-service">
                                 <p>&nbsp;</p>
-                                <li>SNSキャンペーン企画</li>
-                                <li>WEB /SNS広告運用</li>
-                                <li>Webサイト構築・運用</li>
+                                <li>SNS キャンペーン企画</li>
+                                <li>WEB /SNS 広告運用</li>
+                                <li>Web サイト構築・運用</li>
                                 <li>採用支援</li>
                             </ul>
                         </div>
-                        <div class="foo-links-sm">
+                        <div class="foo-links-sm sm">
                             <li>実績紹介</li>
                             <li>ブログ</li>
                         </div>
@@ -685,5 +516,146 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+        <script>
+            // works-slider
+            const slider = document.querySelector(".w-cardwrap");
+
+            fetch("./data/works.json")
+                .then((res) => {
+                    return res.json();
+                })
+                .then((res) => {
+                    let data = res.info;
+                    data.forEach((element) => {
+
+                        const imgwrap = document.createElement("div");
+                        imgwrap.classList.add("w-imgwrap");
+
+                        const card = document.createElement("div");
+                        card.classList.add("w-card");
+
+                        const img = document.createElement("img");
+                        img.setAttribute("src", `./images/works/${element.pic}`);
+
+                        const title = document.createElement("div");
+                        title.classList.add("w-title");
+                        title.innerText += element.title;
+
+                        imgwrap.appendChild(img);
+                        card.appendChild(imgwrap);
+                        card.appendChild(title);
+                        slider.appendChild(card);
+                    });
+                    
+                    $(".w-cardwrap").slick({
+                        dots: true,
+                        // autoplay: true,
+                        autoplaySpeed: 0,
+                        arrows: false,
+                        speed: 6000,
+                        cssEase: "linear",
+                        slidesToShow: 4,
+
+                        responsive: [
+                            {
+                                breakpoint: 768,
+                                settings: {
+                                    slidesToShow: 2,
+                                },
+                            },
+                            {
+                                breakpoint: 426,
+                                settings: {
+                                    slidesToShow: 1,
+                                },
+                            },
+                        ],
+                    });
+                });
+
+                // blog-slider
+            
+                const sliderB = document.querySelector(".b-cardwrap");
+
+                fetch("./data/blog.json")
+                    .then((res) => {
+                        return res.json();
+                    })
+                    .then((res) => {
+                        let data = res.info;
+                        data.forEach((element) => {
+
+                            const imgwrap = document.createElement("div");
+                            imgwrap.classList.add("b-imgwrap");
+
+                            const card = document.createElement("div");
+                            card.classList.add("b-card");
+
+                            const img = document.createElement("img");
+                            img.setAttribute("src", `./images/blog/${element.pic}`);
+
+                            const content = document.createElement("div");
+                            content.classList.add("b-content");
+
+                            const title = document.createElement("div");
+                            title.classList.add("b-info");
+                            title.innerText += element.title;
+
+                            const tagL = document.createElement("div");
+                            tagL.classList.add("b-tag-l");
+                            tagL.innerHTML += `<p>${element.tagL}</p>`
+
+                            const tagS = document.createElement("div");
+                            tagS.classList.add("b-tag-s");
+                            tagS.innerHTML += `<p>${element.tagS}</p>`
+
+                            imgwrap.appendChild(img);
+                            card.appendChild(imgwrap);
+
+                            content.appendChild(title);
+                            content.appendChild(tagL);
+                            content.appendChild(tagS);
+                            card.appendChild(content);
+
+                            sliderB.appendChild(card);
+                        });
+                        
+                        $(".b-cardwrap").slick({
+                            dots: true,
+                            slidesToShow: 4,
+                            slidesToScroll: 1,
+                            centerMode: false,
+
+                            responsive: [
+                                {
+                                    breakpoint: 768,
+                                    settings: {
+                                        slidesToShow: 2,
+                                    },
+                                },
+                                {
+                                    breakpoint: 426,
+                                    settings: {
+                                        slidesToShow: 1,
+                                    },
+                                },
+                            ],
+                        });
+                    });
+
+                    function menuS(){
+                        document.querySelector(".menu-sm").style.display="block";
+                    }
+
+                    document.querySelector(".close").addEventListener("click",()=>{
+                        document.querySelector(".menu-sm").style.display="none";
+
+
+                    })
+
+        </script>
     </body>
 </html>

@@ -771,8 +771,9 @@ body{
             background-color: #fff;
 
             .foo-iconwrap{
+                margin-left: 50%;
                 width: fit-content;
-                transform: translate(40%,-30%);
+                transform: translate(-20%,-30%);
 
                 .foo-imgwrap{
                     width: 2vw;
@@ -879,11 +880,13 @@ body{
             background-size: 100%;
         }
         .nav{
+            width: 100%;  
             display: block;
             font-family: $jp-font;
             display: flex;
             justify-content: space-between;
-    
+            position: absolute;  
+
             .logo-lg{
                 width: 12%;
                 padding: 2% 2.5%;
@@ -927,7 +930,7 @@ body{
             padding-top: 49.53%;
 
             .f-cardwrap{
-                top: 23%;
+                top: 35%;
 
                 .f-card{
                     padding-left: 14.7%;
@@ -957,7 +960,7 @@ body{
                     width: 35%;
                     background: 0;
                     position: absolute;
-                    bottom:15.3%;
+                    bottom:0;
                     
                     .f-link{
                         width:100%;
@@ -982,7 +985,7 @@ body{
                 .f-scroll{
                     position: absolute;
                     right: 1.3%;
-                    bottom: 23%;
+                    bottom: 8%;
     
                     .s-words{
                         font-size: 12px;

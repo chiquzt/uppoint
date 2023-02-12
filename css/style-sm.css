@@ -629,9 +629,10 @@ body {
   background-color: #fff;
 }
 .footer .foo-info .icon-top .foo-iconwrap {
+  margin-left: 50%;
   width: -moz-fit-content;
   width: fit-content;
-  transform: translate(40%, -30%);
+  transform: translate(-20%, -30%);
 }
 .footer .foo-info .icon-top .foo-iconwrap .foo-imgwrap {
   width: 2vw;
@@ -711,10 +712,12 @@ body {
     background-size: 100%;
   }
   .fv .nav {
+    width: 100%;
     display: block;
     font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
     display: flex;
     justify-content: space-between;
+    position: absolute;
   }
   .fv .nav .logo-lg {
     width: 12%;
@@ -754,7 +757,7 @@ body {
     padding-top: 49.53%;
   }
   .fv .f-content .f-cardwrap {
-    top: 23%;
+    top: 35%;
   }
   .fv .f-content .f-cardwrap .f-card {
     padding-left: 14.7%;
@@ -779,7 +782,7 @@ body {
     width: 35%;
     background: 0;
     position: absolute;
-    bottom: 15.3%;
+    bottom: 0;
   }
   .fv .f-content .f-cardwrap .f-linkwrap .f-link {
     width: 100%;
@@ -798,7 +801,7 @@ body {
   .fv .f-content .f-cardwrap .f-scroll {
     position: absolute;
     right: 1.3%;
-    bottom: 23%;
+    bottom: 8%;
   }
   .fv .f-content .f-cardwrap .f-scroll .s-words {
     font-size: 12px;

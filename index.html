@@ -27,13 +27,13 @@
                 </div>
                 <div class="menu-lg">
                     <ul>
-                        <li>サービス</li>
-                        <li>実績紹介</li>
-                        <li>会社案内</li>
-                        <li>ニュース</li>
-                        <li>ブログ</li>
-                        <li class="adj">採用情報</li>
-                        <li class="menu-btn">お問い合わせ</li>
+                        <a href=""><li>サービス</li></a>
+                        <a href=""><li>実績紹介</li></a>
+                        <a href=""><li>会社案内</li></a>
+                        <a href=""><li>ニュース</li></a>
+                        <a href=""><li>ブログ</li></a>
+                        <a href=""><li class="adj">採用情報</li></a> 
+                        <a href=""><li class="menu-btn">お問い合わせ</li></a>
                     </ul>
                 </div>
             </div>
@@ -604,12 +604,17 @@
                             tagS.classList.add("b-tag-s");
                             tagS.innerHTML += `<p>${element.tagS}</p>`
 
+                            const date = document.createElement("div");
+                            date.classList.add("b-date");
+                            date.innerHTML += `<p>${element.date}</p>`
+
                             imgwrap.appendChild(img);
                             card.appendChild(imgwrap);
 
                             content.appendChild(title);
                             content.appendChild(tagL);
                             content.appendChild(tagS);
+                            content.appendChild(date);
                             card.appendChild(content);
 
                             sliderB.appendChild(card);

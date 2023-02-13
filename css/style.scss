@@ -842,6 +842,7 @@ body{
             display: flex;
             justify-content: space-between;
             position: absolute;  
+            z-index: 99;
 
             .logo-lg{
                 width: 12%;
@@ -852,7 +853,7 @@ body{
                 }
             }
             .menu-lg{
-                width: 55%;
+                width: 50%;
                 display: flex;
                 font-size: 16px;
                 font-weight: 600;
@@ -862,18 +863,24 @@ body{
                 ul{
                     display: flex;
                     width: 100%;
-                    justify-content: end;
 
-                    li{
-                        padding: 4.5% 2%;
-                    }
-                    .adj{
-                        padding-right: 3%;
-                    }
-                    .menu-btn{
-                        padding: 4.5% 3.5%;
-                        background-color:$primary;
-                        color: #fff;
+                    a{
+                        width: 80%;
+                        text-decoration: none;
+                        text-align: center;
+
+                        li{
+                            width: 100%;
+                            padding: 30% 2% 10%;
+                        }
+                        .adj{
+                            margin-right: 5%;
+                        }
+                        .menu-btn{
+                            padding: 30% 10%;
+                            background-color:$primary;
+                            color: #fff;
+                        }
                     }
                 }
             }
@@ -1273,7 +1280,7 @@ body{
     
                 .b-imgwrap{
                     width: 90%;
-                    margin: 0 auto 6%;
+                    margin: 0 auto 4%;
     
                 }
                 .b-content{
@@ -1283,12 +1290,14 @@ body{
                     .b-info{
                         line-height: 2rem;
                         text-align: start;
-                        margin-bottom: 5%;
+                        margin-bottom: 2%;
                         letter-spacing: 1.5px;
                         font-size: 20px;
                     }
                     .b-tag-l{
-
+                        width: 75%;
+                        line-height: 1.5rem;
+                        
                         p{
                             font-size: 16px;
                         }
